@@ -23,6 +23,7 @@
   "dependencies": {
     "delegates": "^0.1.0",
     "influx": "^3.3.0",
+    "lodash": "^3.5.0",
     "sand-grain": "^1.0.0"
   }
 }
