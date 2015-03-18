@@ -1,5 +1,5 @@
 # sand-influx
-An [InfluxDB](http://influxdb.com) sand grain.
+An [InfluxDB](http://influxdb.com) sand grain. This module is a wrapper for [node-influx](https://github.com/bencevans/node-influx).
 
 ## Installation
 `npm install sand-influx`
@@ -28,7 +28,7 @@ A list of configuration values can be found below
 | hostname | hostname, e.g. 'localhost' |
 | port [optional] | influx db port, defult: 8086 |
 | requestTimeout [optional] | number of ms to wait before request times out. defaults to 'null' (waits until connection is closed). Use with caution ! |
-| maxRetries | max number of retries until a request raises an error (e.g 'no hosts available'), default: 2 |
+| maxRetries[optional] | max number of retries until a request raises an error (e.g 'no hosts available'), default: 2 |
 
 ## Functions
 
@@ -69,5 +69,5 @@ Queries the database using raw influx
 
 ```js
 let query = 'SELECT mean(column) FROM my_series WHERE time > now() - 24h';
-sand.influx.query(query, callback);
+sand.influx.queryRaw(query, callback);
 ```
