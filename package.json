@@ -1,6 +1,6 @@
 {
   "name": "sand-influx",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Influx DB support",
   "main": "lib/Influx.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/pocketly/sand-influx",
   "dependencies": {
     "delegates": "^0.1.0",
-    "influx": "^3.3.0",
+    "influx": "^4.1.0",
     "lodash": "^3.5.0",
     "sand-grain": "^1.0.0"
   }
