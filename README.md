@@ -1,5 +1,5 @@
 # sand-influx
-An [InfluxDB](http://influxdb.com) sand grain. This module is a wrapper for [node-influx](https://github.com/bencevans/node-influx).
+An [InfluxDB](http://influxdb.com) sand grain. This module is a wrapper for [node-influx](https://github.com/node-influx/node-influx).
 
 ## Installation
 `npm install sand-influx`
