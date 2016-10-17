@@ -22,7 +22,7 @@
   "homepage": "https://github.com/pocketly/sand-influx",
   "dependencies": {
     "delegates": "^0.1.0",
-    "influx": "^4.1.0",
+    "influx": "^5.0.0-alpha.1",
     "lodash": "^3.5.0",
     "sand-grain": "^1.0.0"
   }
